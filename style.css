@@ -1,0 +1,99 @@
+/* .done{
+    display: none;
+} */
+*{
+    overflow: hidden;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #33322d;
+    width: fit-content;
+    padding: 30px;
+    
+    border: 3px solid #A9A8A2;
+    border-radius: 20px;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+
+li{
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    padding: 7px;
+}
+li:nth-last-of-type(2n){
+    background-color: #61605a;
+}
+li:hover{
+    background-color: #A4D676;
+    transition: all 0.5s;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+h1{
+    color: white;
+}
+
+span{
+    float: right;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 2px;
+    
+}
+.lists{
+    padding: 0;
+    width: 30%;
+}
+
+.decorate{
+    text-decoration: line-through;
+}
+
+span:hover{
+    cursor: pointer;
+    background-color: #A4D676;
+    color: black;
+    transition: all 0.5s;
+}
+
+#myInput{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #A4D676;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
